@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Video & Media datasets (large binaries)
+FaceVideos/*
+!FaceVideos/.gitkeep
+PoseVideos/*
+!PoseVideos/.gitkeep
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary & backup files
+*.bak
+*.tmp
